@@ -89,7 +89,7 @@ const Navbar = () => {
         style={{ zIndex: 99 }}
       >
         <nav className="flex justify-between items-center">
-          <Link href="/dashboard-admin">
+          <Link href="/admin/dashboard">
             {/* <div className="relative w-[106px] h-[40px] border-2 border-border_gray rounded">
             <Image
               src={logo}

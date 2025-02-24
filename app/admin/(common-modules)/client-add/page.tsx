@@ -245,7 +245,7 @@ const ClientDetails = () => {
       notify("Client created successfully", true);
       form.reset();
       setSaveLoader(false);
-      router.push("/client");
+      router.push("/admin/client");
     } catch (error: any) {
       console.error("Error in onSubmit:", error.message);
       setSaveLoader(false);
