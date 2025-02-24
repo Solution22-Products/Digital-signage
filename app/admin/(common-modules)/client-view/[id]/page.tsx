@@ -965,7 +965,7 @@ const ClientDetails = (props: Props) => {
 
     try {
       // Construct the URL without encoding the query parameters
-      const signInUrl = `https://digital-signage-one.vercel.app/auto-login?email=${email}&password=${password}&id=${selecteduserId}`;
+      const signInUrl = ` https://digital-signage-gamma.vercel.app/auto-login?email=${email}&password=${password}&id=${selecteduserId}`;
       // const signInUrl = `http://localhost:3001/auto-login?email=${email}&password=${password}&id=${selecteduserId}`;
 
       // Open a new tab with the sign-in URL
